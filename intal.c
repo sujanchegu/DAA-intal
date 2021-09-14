@@ -430,11 +430,6 @@ char *intal_fibonacci(unsigned int n)
     char *cn;
     for (unsigned int t = 1; t < n; t++)
     {
-        if (t == 999)
-        {
-            int k = 100;
-            int j = 100;
-        }
         cn = intal_add(ppn, pn);
         char *temp = ppn;
         ppn = pn;
